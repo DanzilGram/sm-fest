@@ -1720,7 +1720,7 @@ a:hover{
     height: 80px;
   }
   .about-us-sec{
-    margin-top: 250px;
+    margin-top: 300px;
     height: 100%;
     padding: 40px 0px;
   }
@@ -1794,12 +1794,16 @@ a:hover{
     box-shadow: 10px 10px #EE2F5B;
 
   }
+  .visible-sec{
+    height: fit-content;
+  }
   .visible-h3{
     font-size: 18px;
     text-align: center;
   }
   .visible-image{
-  box-shadow: 10px 10px #EE2F5B;
+    width: 98%;
+    box-shadow: 10px 10px #EE2F5B;
 
   }
   .visibility-h2{
