@@ -964,6 +964,8 @@ a:hover{
   background-size: cover;
   background-position: center;
   animation: changeImage 35s infinite alternate;
+  animation-fill-mode: both;
+  z-index: 0;
 }
 @keyframes changeImage{
   0% { background-image: url(keyframes-images/keyframe4.webp);}
@@ -981,6 +983,8 @@ a:hover{
   background-size: cover;
   background-position: center;
   animation: slideImage 35s infinite alternate;
+  animation-fill-mode: both;
+  z-index: 0;
 }
 @keyframes slideImage{
   0% { background-image: url(keyframes-images/keyframe9.webp);}
@@ -1013,6 +1017,8 @@ a:hover{
   background-size: cover;
   background-position: center;
   animation: scrollImage 35s infinite alternate;
+  animation-fill-mode: both;
+  z-index: 0;
 }
 @keyframes scrollImage{
   0% { background-image: url(keyframes-images/keyframe14.webp);}
@@ -1031,6 +1037,8 @@ a:hover{
   background-size: cover;
   background-position: center;
   animation: slipImage 35s infinite alternate;
+  animation-fill-mode: both;
+  z-index: 0;
 }
 @keyframes slipImage{
   0% { background-image: url(keyframes-images/keyframe9.webp);}
@@ -1127,6 +1135,8 @@ a:hover{
   background-size: cover;
   background-position: center;
   animation: removeImage 25s infinite alternate;
+  animation-fill-mode: both;
+  z-index: 0;
 }
 @keyframes removeImage{
   0% { background-image: url(keyframes-images/keyframe15.webp);}
