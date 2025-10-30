@@ -47,7 +47,7 @@ header{
   background-color: #08003c;
   position: sticky;
   top: 0;
-  z-index: 7;
+  z-index: 9999;
 }
 .header-contents{
   width: 90%;
@@ -1516,6 +1516,7 @@ a:hover{
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 9999;
   }
   .mobile-nav a{
     font-size: 10px;
